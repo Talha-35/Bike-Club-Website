@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Bike-Club</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="shortcut icon" href="./images/gfavicon.png" type="image/png">
+</head>
+
+<body>
+
+    <header>
+        <h1>Bike & Club </h1>
+        <h3>Willkommen bei Bike&Sport Dortmund</h3>
+        <img src="./images/sol.jpeg" alt="bike-photo1" id="sol">
+        <img src="./images/sag.jpeg" alt="bike-photo2" id="sag">
+    </header>
+    <section class="bike">
+        <img src="./images/photo2.jpg" alt="bike-photo1" id="photo1">
+        <img src="./images/photo5.jpg" alt="bike-photo2" id="photo2">
+        <img src="./images/photo8.jpg" alt="bike-photo3" id="photo3">
+        <img src="./images/photo6.jpg" alt="bike-photo4" id="photo4">
+
+    </section>
+    <!-- emmet => nav.main-nav>ul>li*5 -->
+    <nav class="main.nav">
+        <ul>
+            <li><a href="#" class="join">Join The Club</a></li>
+            <li><a href="#">Previous Trips</a> </li>
+            <li><a href="#">Photo gallery</a></li>
+            <li><a href="#">Contact</a></li>
+        </ul>
+    </nav>
+    <main>
+        <article>
+            <h2>Wer sind wir?</h2>
+
+            <p> Unser Radsportverein wurde 2016 gegründet. Wir haben Reisen in verschiedene Städte in Deutschland
+                organisiert. Unser Ziel ist es, dem geschäftigen Geschäftsleben zu entfliehen und Zeit allein mit der
+                Natur zu verbringen. Wir warten auf alle, die Natur und Abenteuer in unserem Club lieben.. </p>
+        </article>
+        <ul class="images">
+            <li><img src="./images/photo1.jpg" alt="voltran2"></li>
+            <li><img src="./images/photo8.jpg" alt="voltran3"></li>
+
+        </ul>
+    </main>
+
+    <!-- section.join>h2+p+form>input[type=email]+input[type=submit] -->
+
+    <section class="join">
+        <h2>Begleiten Sie uns</h2>
+        <p>Sie können auf die folgenden Facebook-Twitter-Instagram-Symbole klicken, um sich uns anzuschließen ...
+           
+            Oder Sie können uns kontaktieren, indem Sie Ihre E-Mail-Adresse an das unten stehende Feld senden.</p>
+        <form action="">
+            <input type="email" name="email" placeholder="Type email & hit enter" required id="button">
+            <!-- sondaki required dendiği zaman zorunlu oluyor -->
+            <input type="submit" value="senden" id="button1">
+        </form>
+    </section>
+    <!-- footer>p.copyright -->
+    <footer>
+        <p class="copyright">Copyright 2020 Bike&Sport</p>
+        
+        <ul class="footer-left">
+            <li> <a href="https://twitter.com/" target="_blank"> <img src="./images/twit.jpg" alt="twitter-Image" id="twit"> </a> </li>
+            <li> <a href="https://www.facebook.com/" target="_blank"> <img src="./images/face.png" alt="facebook-Image" id="face"> </a> </li>
+            <li> <a href="https://www.instagram.com/" target="_blank"> <img src="./images/instagram.jpg" alt="instagram-Image" id="instagram"> </a> </li>
+           
+        </ul>
+        <ul class="footer-right">
+            <li><a href="#" id="bot1">Privacy</a></li>
+            <li><a href="#" id="bot2">Terms</a></li>
+            <li><a href="#" id="bot3">Settings</a></li>
+        </ul>
+    </footer>
+
+
+</body>
+
+</html>
