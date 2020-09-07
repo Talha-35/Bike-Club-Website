@@ -1,7 +1,7 @@
 body, ul, li, h1, h2, a{
     margin: 0;
     padding: 0;
-    font-family: tahoma;
+    font-family: tahoma;    
   }
 
   p{
@@ -17,6 +17,7 @@ body, ul, li, h1, h2, a{
     left: 0;
     z-index: 1;
   }
+  
   header h1{
     color: rgb(22, 9, 9);
     border: 8px solid rgb(54, 92, 51);
@@ -25,31 +26,39 @@ body, ul, li, h1, h2, a{
     border-radius: 36px;
   }
   header h3{
+    display: inline-block;
     color: rgb(129, 168, 114);
     margin-bottom: -80px;
   }
 
   #sol{
+    display: block;
     position: relative;
-    top: -15px;
+    top: -55px;
     left: 60px;
     opacity: 0.7;
     border-radius: 60px;
     float: left;
-    width: 15%;
+    width: 150px;
   }
   #sag{
+    display: block;
     position: relative;
-    top: -15px;
+    top: -55px;
     right: 60px;
     opacity: 0.7;
     border-radius: 60px;
     float: right;
-    width: 15%;
+    width: 150px;
   }
-
+  header::after {
+    content: " ";
+    display: block;
+    clear: both;
+  }
   .bike{
     position: relative;
+    top:30px ;
     position: block;    
   }
    .bike img{
@@ -67,10 +76,9 @@ body, ul, li, h1, h2, a{
     clear: both;
   }
    
-   
     nav{
     background: #23382b;
-    margin-top: 123px;
+    margin-top: 133px;
     padding: 20px;
     position: sticky;
     top: 133px;
